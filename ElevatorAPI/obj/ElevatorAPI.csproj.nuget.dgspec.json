@@ -1,0 +1,187 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\tamnh\\source\\repos\\ElevatorAPI-main\\ElevatorAPI\\ElevatorAPI.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\tamnh\\source\\repos\\ElevatorAPI-main\\ApplicationCore\\ApplicationCore.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\tamnh\\source\\repos\\ElevatorAPI-main\\ApplicationCore\\ApplicationCore.csproj",
+        "projectName": "ApplicationCore",
+        "projectPath": "C:\\Users\\tamnh\\source\\repos\\ElevatorAPI-main\\ApplicationCore\\ApplicationCore.csproj",
+        "packagesPath": "C:\\Users\\tamnh\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\tamnh\\source\\repos\\ElevatorAPI-main\\ApplicationCore\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\tamnh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\tamnh\\source\\repos\\ElevatorAPI-main\\ElevatorAPI\\ElevatorAPI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\tamnh\\source\\repos\\ElevatorAPI-main\\ElevatorAPI\\ElevatorAPI.csproj",
+        "projectName": "ElevatorAPI",
+        "projectPath": "C:\\Users\\tamnh\\source\\repos\\ElevatorAPI-main\\ElevatorAPI\\ElevatorAPI.csproj",
+        "packagesPath": "C:\\Users\\tamnh\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\tamnh\\source\\repos\\ElevatorAPI-main\\ElevatorAPI\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\tamnh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\tamnh\\source\\repos\\ElevatorAPI-main\\Infrastructure\\Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\tamnh\\source\\repos\\ElevatorAPI-main\\Infrastructure\\Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\tamnh\\source\\repos\\ElevatorAPI-main\\Infrastructure\\Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\tamnh\\source\\repos\\ElevatorAPI-main\\Infrastructure\\Infrastructure.csproj",
+        "projectName": "Infrastructure",
+        "projectPath": "C:\\Users\\tamnh\\source\\repos\\ElevatorAPI-main\\Infrastructure\\Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\tamnh\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\tamnh\\source\\repos\\ElevatorAPI-main\\Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\tamnh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\tamnh\\source\\repos\\ElevatorAPI-main\\ApplicationCore\\ApplicationCore.csproj": {
+                "projectPath": "C:\\Users\\tamnh\\source\\repos\\ElevatorAPI-main\\ApplicationCore\\ApplicationCore.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
